@@ -1,4 +1,4 @@
-## SDSS Computing Studies Python Assignment
++## SDSS Computing Studies Python Assignment
 ### Assignment #004c While Loops (Total Marks 10)
 
 Objectives:

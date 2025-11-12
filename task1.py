@@ -25,3 +25,11 @@ Example:
 10
 ...
 """
+
+import time
+x=0
+while x!=20:
+    x=x+2
+    print(x)
+    time.sleep(0.5)
+print("==============")

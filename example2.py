@@ -23,7 +23,7 @@ print("===================")
 while targetNum != guess:
     print(guess)
     difference = guess - targetNum
-    guess = guess - math.ceil(difference / 2)
+    guess = guess - math.floor(difference / 2)
     count = count + 1
     # time.sleep(x) will pause the program at this point for x seconds where x is a float 
     time.sleep(1)

@@ -10,9 +10,9 @@ name = ""
 incorrectName = True
 while incorrectName:
     name = input("Who is your favorite cartoon character?")
-    if name != "Marvin the Martian":
-        print("  You can't be serious.")
-    else:
+    if name == "Marvin the Martian":
         incorrectName = False
+    else:
+        print("  You can't be serious.")
 
 print("Marvin the Martian is my favorite character, too!")
