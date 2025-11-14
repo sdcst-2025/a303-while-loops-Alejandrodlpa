@@ -13,3 +13,9 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+import time
+import math
+
+x=0
+while x<100:
+    

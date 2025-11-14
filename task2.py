@@ -32,14 +32,13 @@ Access granted
 
 username=""
 password=""
-while username!="admin" and password!="12345":
+while username!="admin" or password!="12345":
     username=input("Enter username: ")
-    if username!="admin":
-        print("Access denied")
-    else:
-        password=input("Enter password: ")
+    if username=="admin":
+        password=input("Enter Password: ")
         if password!="12345":
-            print("Access denied")
+            print("Acces denied")
         else:
-            print("Access granted")
-    
+            print("Acces granted")
+    else:
+        print("Acces denied")
